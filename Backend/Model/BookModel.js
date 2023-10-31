@@ -17,8 +17,8 @@ const bookSchema = mongoose.Schema(
             max:2023,
         },
     },
-    // {
-    //     timestamps: true,
-    // },
+    {
+        timestamps: true,
+    },
 ); 
 export const Book = mongoose.model('Book', bookSchema);

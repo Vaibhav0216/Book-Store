@@ -1,0 +1,55 @@
+/* BookSingleCard.css */
+.book-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(33.33% - 20px); 
+    margin: 10px; 
+    position: relative;
+    gap: 10px;
+  }
+
+  .year {
+    position:absolute;
+    top: 8px;
+    right: 16px;
+    background-color: #c78e6d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .id {
+    background-color: transparent;
+    color: #333;
+  }
+  
+  .title-icon,.author-icon {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    margin: 17px;
+    gap: 10px;
+  }
+  
+  .author-icon {
+    padding-bottom: 15px;
+  }
+  
+  .actions {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    justify-content: space-between;
+  } 
+  .actions a{
+    padding-left: 1rem;
+  }
+  .BsInfoCircle,.AiOutlineEdit,.MdOutlineDelete,.BiUserCircle,.PiBookOpenTextLight,.BiShow{
+    font-size: 1.5rem;
+  }
+  
+  

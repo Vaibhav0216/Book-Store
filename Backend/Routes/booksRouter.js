@@ -3,6 +3,8 @@ import { Book } from "../Model/BookModel.js";
 // mongoose post method is async
 
 const router = express.Router();
+
+
 router.post("/",async(req,res)=>{
     try{
         if(
@@ -19,6 +21,7 @@ router.post("/",async(req,res)=>{
             publishYear:req.body.publishYear,
         }
         const book = await Book.create(newBook);
+        console.log(book);
 
         return res.status(200).send(book);
 
@@ -27,6 +30,7 @@ router.post("/",async(req,res)=>{
         res.status(500).send({message:error.message})
     }
 }) 
+
 
 // getting all the books 
 router.get("/",async(req,res)=>{

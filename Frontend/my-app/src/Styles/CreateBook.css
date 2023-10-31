@@ -1,0 +1,60 @@
+/* CreateBook.css */
+.create-book-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: black solid 1px;
+    border-radius: 1rem;
+  }
+  
+  .header {
+    display: flex table-column;
+    justify-content: start;
+    
+    /* align-items: center; */
+    font-size: 24px;
+  }
+  
+  .header a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* padding-right: 10px; */
+    box-sizing: border-box;
+  }
+  
+  .btn button{
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn{
+    text-align: center;
+  }
+  
+  .btn button:hover {
+    background-color: #0057b3a2;
+  }
+  

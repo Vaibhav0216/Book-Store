@@ -1,0 +1,45 @@
+.header {
+    display: flex table-column;
+    justify-content: start;
+    
+    /* align-items: center; */
+    font-size: 24px;
+  }
+  
+  .header a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  
+  
+  
+  /* Center the content box */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: blue solid 1px;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  
+  /* Space between elements */
+  .container div {
+    margin-bottom: 30px; /* Add space between the question and the button */
+  }
+  
+  /* Style for the "Yes, Delete it" button */
+  button {
+    background-color: #ff0000; /* Red color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cc0000; /* Slightly darker red on hover */
+  }
