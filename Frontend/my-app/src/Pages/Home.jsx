@@ -15,7 +15,7 @@ const Home = () => {
         const fetchData = async () => {
             try {
                 setLoading(true);
-                const response = await axios.get("http://localhost:8080/books");
+                const response = await axios.get("https://backend-cb1v.onrender.com/books");
                 setBooks(response.data.data);
                 setLoading(false);
             } catch (error) {

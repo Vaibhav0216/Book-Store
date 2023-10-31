@@ -21,7 +21,7 @@ const EditBook = () => {
     useEffect(()=>{
         setLoading(true);
         axios
-        .get(`http://localhost:8080/books/${id }`)
+        .get(`https://backend-cb1v.onrender.com/books/${id }`)
         .then((response)=>{
             setBook(response.data)
             setLoading(false);
@@ -44,7 +44,7 @@ const EditBook = () => {
         setLoading(true);
         setError(null);
         axios
-        .put(`http://localhost:8080/books/${id}`,book)
+        .put(`https://backend-cb1v.onrender.com/books/${id}`,book)
         .then(()=>{ 
             setLoading(false);
             // enqueueSnackbar('Book created successfully',{variant:'success'});
