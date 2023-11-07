@@ -1,0 +1,14 @@
+/* Add this CSS to your stylesheet */
+.books-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .books-card-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for individual book cards (BookSingleCard) can be applied here */
+  

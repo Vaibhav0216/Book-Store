@@ -1,4 +1,4 @@
-/* BookSingleCard.css */
+
 .book-card {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -6,7 +6,7 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    width: calc(33.33% - 20px); 
+    width: calc(29% - 10px);
     margin: 10px; 
     position: relative;
     gap: 10px;
@@ -24,13 +24,13 @@
   
   .id {
     background-color: transparent;
-    color: #333;
+    color: #333333a6;;
   }
   
   .title-icon,.author-icon {
     display: flex;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin: 17px;
     gap: 10px;
   }
@@ -53,3 +53,4 @@
   }
   
   
+

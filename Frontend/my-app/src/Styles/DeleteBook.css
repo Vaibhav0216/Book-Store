@@ -23,6 +23,7 @@
     border: blue solid 1px;
     border-radius: 1rem;
     text-align: center;
+    flex-direction: column;
   }
   
   /* Space between elements */

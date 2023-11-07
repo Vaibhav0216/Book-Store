@@ -9,6 +9,7 @@ import BookModel from "./BookModel";
 import "../../Styles/BookSingleCard.css"; // Import your CSS file
 
 const BookSingleCard = ({ book }) => {
+  // console.log(book);
   const [show,setShow] = useState(false);
   return (
     <div className="book-card">
